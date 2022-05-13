@@ -186,6 +186,13 @@ export class GuiModel {
                             "color": "wisteria",
                             "page": "groupspage",
                         },
+                        {
+                            "type": "button",
+                            "name": "Activity",
+                            "icon": "fa-cube",
+                            "color": "green",
+                            "page": "friendspage",
+                        },
                     ]
                 },
                 {
@@ -197,6 +204,15 @@ export class GuiModel {
                         {
                             "type": "newButton",
                             "name": "NewFriend",
+                            "icon": "fa-user",
+                            "color": "green",
+                            "form": {
+                                "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "newButton",
+                            "name": "AddActivity",
                             "icon": "fa-user",
                             "color": "green",
                             "form": {
