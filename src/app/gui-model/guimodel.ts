@@ -191,7 +191,7 @@ export class GuiModel {
                             "name": "Activity",
                             "icon": "fa-cube",
                             "color": "green",
-                            "page": "friendspage",
+                            "page": "activitypage",
                         },
                     ]
                 },
@@ -285,6 +285,23 @@ export class GuiModel {
                             }
                         }
                     ]
+                },
+                {
+                "id": "activitypage",
+                "elementList": [
+                    {
+                    "type": "backbutton",
+                    },
+                    {
+                    "type": "newButton",
+                    "name": "NewGroup",
+                    "icon": "fa-weixin",
+                    "color": "green",
+                    "form": {
+                        "form": "GroupForm" 
+                        }
+                    }
+                ]
                 }
             ]
         }
