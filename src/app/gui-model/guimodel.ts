@@ -294,8 +294,8 @@ export class GuiModel {
                     },
                     {
                     "type": "newButton",
-                    "name": "NewGroup",
-                    "icon": "fa-weixin",
+                    "name": "NewActivity",
+                    "icon": "fa-cube",
                     "color": "green",
                     "form": {
                         "form": "GroupForm" 
